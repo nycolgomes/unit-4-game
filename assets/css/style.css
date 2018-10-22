@@ -7,4 +7,16 @@
     border: 1px solid green;
     height: 200px;
     width: 200px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s, transform 2s;
+}
+.crystal:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: box-shadow 1s, transform 2s; 
+    transform: translate(5px, 5px);
+}
+img{
+    width: 50px;
 }
