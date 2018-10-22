@@ -1,22 +1,33 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    margin-top: 30px;
+}
 .crystals{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .crystal{
-    border: 1px solid green;
+    border: 2px solid rgb(184, 97, 255);
     height: 200px;
     width: 200px;
     border-radius: 4px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
     transition: box-shadow 1s, transform 2s;
 }
 .crystal:hover{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
     cursor: pointer;
     transition: box-shadow 1s, transform 2s; 
     transform: translate(5px, 5px);
 }
 img{
     width: 50px;
+}
+#result{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
 }
