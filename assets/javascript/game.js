@@ -11,12 +11,12 @@ var resetAndStart = function () {
         "https://cdn.shopify.com/s/files/1/1911/3007/products/Adundance-Quartz-Crystal-Candle_4816eb0f-4728-422e-bdb3-b5f0b9b2731d.jpg?v=1536772508",
         "https://images-na.ssl-images-amazon.com/images/I/71Imq3vXaGL._SL1440_.jpg",
         "https://vignette.wikia.nocookie.net/mgefanon/images/6/69/Kinetic_Crystal.jpg/revision/latest?cb=20150409231719",
-        "https://battlecampbible.cdn.bcrank.us/181/img/cs-crystal.png"
+        "https://www.zerotoys.com/v/vspfiles/photos/MAGICALCRYSTALS-3.jpg"
     ];
    
     randomResult = Math.floor(Math.random() * 69 ) + 30; 
 
-    $("#result").html("Random Result: " + randomResult);
+    $("#result").html("Goal: " + randomResult);
 
     for (var i = 0; i < 4; i++){
 

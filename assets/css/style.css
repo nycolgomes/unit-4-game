@@ -1,12 +1,13 @@
 body{
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/colorful.jpg);
     background-size: cover;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .crystals{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 70px;
 }
 .crystal{
     border: 2px solid rgb(184, 97, 255);
@@ -20,14 +21,25 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
     cursor: pointer;
     transition: box-shadow 1s, transform 2s; 
-    transform: translate(5px, 5px);
+    transform: translate(7px, 7px);
 }
 img{
     width: 50px;
 }
 #result{
-    font-size: 30px;
+    font-size: 70px;
     margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+}
+#previous, #lost, #win{
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+}
+p{
+    text-shadow: 2px 2px 2px white;
 }
